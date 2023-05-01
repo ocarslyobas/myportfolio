@@ -1,7 +1,11 @@
 import React from 'react';
 import "./Home.css"
 import { Link } from 'react-router-dom';
-import {FaEnvelope,FaGithub, FaLinkedin, } from "react-icons/fa"
+import {FaEnvelope,FaGithub, FaLinkedin, } from "react-icons/fa";
+import office_pic1 from "../../Assets/photo/office_pic1.jpg";
+
+
+
 
 
 const Home = ()=> {
@@ -31,7 +35,7 @@ const Home = ()=> {
                     </div>
                     
                     <div className='imagebox'>
-                        <img src="../assets/photo/office_pic1.jpg" alt="photo" className='image-rounded' />
+                        <img src={office_pic1} alt="photo" className='image-rounded' />
                     </div>
                     <div className='skills'>
                         <h1 className="skillshead">Skills Acquired</h1>
